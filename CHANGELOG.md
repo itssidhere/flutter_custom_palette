@@ -1,3 +1,9 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial Realease
+
+## 0.0.2
+* Added License
+
+## 0.0.3
+* Fixed Readme

@@ -1,6 +1,7 @@
 name: flutter_custom_palette
 description: A flutter plugin to manage all the colors used in your app.
-version: 0.0.1
+version: 0.0.3
+repository: https://github.com/itssidhere/flutter_custom_palette
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -15,6 +16,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
+  icapps_license: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
