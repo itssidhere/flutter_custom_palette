@@ -3,7 +3,7 @@
 A flutter plugin to manage all the colors used in your app.
 
 
-### Initialise the palette
+### Initialize the palette
 ```dart
     FlutterCustomPalette palette = FlutterCustomPalette();
     await palette.init();
