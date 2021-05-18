@@ -31,7 +31,7 @@ A flutter plugin to manage all the colors used in your app.
     )
 ```
 
-### Listen for realtime changes to the specific color
+### Listen for realtime changes to a specific color
 ```dart
      ValueListenableBuilder(
       valueListenable: palette.getListenable(keys: ['myFavColor']),
