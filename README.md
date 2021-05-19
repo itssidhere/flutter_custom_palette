@@ -16,7 +16,11 @@ A flutter plugin to manage all the colors used in your app.
 
 ### Get a color by key
 ```dart
-    palette.get(key: 'myFavColor');
+    //color in string
+    var colorString = palette.get(key: 'myFavColor');
+    
+    //convert it to Color
+    var color = palette.getColor(color: colorString);
 ```
 
 ### Listen for realtime changes to the palette
@@ -25,7 +29,7 @@ A flutter plugin to manage all the colors used in your app.
       valueListenable: palette.getListenable(),
       builder: (BuildContext context, Box value, Widget? child) {
 
-          var myFavColor = value.get('myFavColor');
+          var myFavColor = palette.getColor(color: value.get('myFavColor'));
           return Container(height:100,width:100,color:myFavColor);
       },
     )
